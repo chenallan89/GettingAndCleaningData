@@ -52,9 +52,9 @@ Output from the script will be places in the file *Mean-and-StdDev-by-Sub-and-Ac
 The data set comes from a study on human activity recognition using smartphones, a full description can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-As the zip file of the data contains descriptions of each data file in the set, I will not be duplicating it here. The final output file for this project contains 81 columns and 180 rows.
+As the zip file of the data contains descriptions of each data file in the set, I will not be duplicating it here. The final output file for this project contains 81 columns and 180 rows. A portion of the documentation is reproduced belowto provide an overview.
 
-### For each record it is provided:
+### Each record provides:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -80,7 +80,7 @@ The following files are available for the train and test data. Their description
 * 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 * 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-## Data License
+### Data License
 
 The data set also comes with a license condition, specifically that the use of the dataset in publications must be acknowledged by referencing the following publication
 
