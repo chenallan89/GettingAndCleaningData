@@ -1,8 +1,8 @@
 # Code Book for the Getting and Cleaning Data Course Project
 
+This is the description document for the course project. 
 
-
-## File \: run_analysis.R
+## File: run_analysis.R
 
 This is the script that will create the final data set. It is not very complicated, it performs the
 following tasks:
@@ -47,9 +47,12 @@ Output from the script will be places in the file *Mean-and-StdDev-by-Sub-and-Ac
 * XMeanAndStdDevData - Subset of XfullData with just the columns we need
 * XMeanAndStdDevAve - Reduced data set after subsetting and calculating the means individual subject and activity columns
 
-
-
 ## Data Set
+
+The data set comes from a study on human activity recognition using smartphones, a full description can be found here:
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+As the zip file of the data contains descriptions of each data file in the set, I will not be duplicating it here. The final output file for this project contains 81 columns and 180 rows.
 
 ### For each record it is provided:
 
