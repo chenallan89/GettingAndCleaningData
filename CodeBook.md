@@ -2,7 +2,7 @@
 
 This is the description document for the course project. 
 
-## R script run_analysis.R
+## script file: run_analysis.R
 
 This is the script that will create the final data set. It is not very complicated, it performs the
 following tasks:
