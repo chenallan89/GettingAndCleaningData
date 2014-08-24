@@ -44,19 +44,19 @@ git clone https://github.com/scott5/GettingAndCleaningData.git
 This will create a copy of the repository in your working directory. You can copy the run_analysis file from the repo copy to your working directory and then run the script
 
 ```
-  $ Rscript run_analysis.R
+$ Rscript run_analysis.R
 ```  
 
 Once the command line comes back, you should have the tidied data set written to the data directory called Mean-and-StdDev-by-Sub-and-Act.txt. You can perform a quick visual check with the following command:
 
 ```
-  $ head ./data/Mean-and-StdDev-by-Sub-and-Act.txt
+$ head ./data/Mean-and-StdDev-by-Sub-and-Act.txt
 ```
 
 Given that there are 6 activities and 30 subjects, the resulting file should have 180 rows of data.
 
 ```
- $ wc -l ./data/Mean-and-StdDev-by-Sub-and-Act.txt
+$ wc -l ./data/Mean-and-StdDev-by-Sub-and-Act.txt
 ```
 
 ## The Data Set
