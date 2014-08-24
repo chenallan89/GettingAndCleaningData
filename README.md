@@ -36,12 +36,15 @@ Before you start, you will need to download the data set and extract it to a wor
 As this was all performed on an Apple Mac, the following commands may not be exactly the same for other platforms. They should work equally well for a linux/bsd/solaris box, but probably not for a windows box.
 
 Clone the repo to the working directory and from the command line execute the script 
+
   $ Rscript run_analysis.R
   
 Once the command line comes back, you should have the tidied data set written to the data directory called Mean-and-StdDev-by-Sub-and-Act.txt. You can perform a quick visual check with the following command:
+
   $ head ./data/Mean-and-StdDev-by-Sub-and-Act.txt
   
 Given that there are 6 activities and 30 subjects, the resulting file should have 180 rows of data
+
   $ wc -l ./data/Mean-and-StdDev-by-Sub-and-Act.txt
 
 
