@@ -35,19 +35,29 @@ Before you start, you will need to download the data set and extract it to a wor
 
 As this was all performed on an Apple Mac, the following commands may not be exactly the same for other platforms. They should work equally well for a linux/bsd/solaris box, but probably not for a windows box.
 
-Clone the repo to the working directory and from the command line execute the script 
+Clone the repo to the working directory and from the command line execute the script
 
+```
+git clone https://github.com/scott5/GettingAndCleaningData.git
+```
+
+This will create a copy of the repository in your working directory. You can copy the run_analysis file from the repo copy to your working directory and then run the script
+
+```
   $ Rscript run_analysis.R
-  
+```  
+
 Once the command line comes back, you should have the tidied data set written to the data directory called Mean-and-StdDev-by-Sub-and-Act.txt. You can perform a quick visual check with the following command:
 
+```
   $ head ./data/Mean-and-StdDev-by-Sub-and-Act.txt
-  
-Given that there are 6 activities and 30 subjects, the resulting file should have 180 rows of data
+```
 
-  $ wc -l ./data/Mean-and-StdDev-by-Sub-and-Act.txt
+Given that there are 6 activities and 30 subjects, the resulting file should have 180 rows of data.
 
-
+```
+ $ wc -l ./data/Mean-and-StdDev-by-Sub-and-Act.txt
+```
 
 ## The Data Set
 
@@ -66,3 +76,7 @@ A detailed description of the data set in in the [CodeBook](./CodeBook.md) assoc
 * './data/train/y_train.txt': Training labels.
 * './data/test/X_test.txt': Test set.
 * './data/test/y_test.txt': Test labels.
+
+## Other Acknowledgements
+
+Lots of Google searches, StackOverflow pages and a multitude of R sites that helped me work out the bits and pieces of what I was doing here.
